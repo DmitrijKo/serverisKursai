@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Pirmas projektas",
+  "type": "module",
+  "scripts": {
+     "start": "node ./src/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DmitrijKo",
+  "license": "ISC"
+}
