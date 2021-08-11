@@ -38,6 +38,7 @@ app.get("/", async (req, res) => {
     res.status(500).end(err.msg);
   }
 });
+
 app.get("/zmogus/:id?", async (req, res) => {
   try {
     let zmones = await fs.readFile(ZMONES, {
@@ -55,6 +56,7 @@ app.get("/zmogus/:id?", async (req, res) => {
     res.status(500).end(err.msg);
   }
 });
+
 app.get("/zmogus/:id/delete", async (req, res) => {
   try {
     let zmones = await fs.readFile(ZMONES, {
@@ -74,6 +76,7 @@ app.get("/zmogus/:id/delete", async (req, res) => {
     res.status(500).end(err.msg);
   }
 });
+
 app.post("/zmogus/save", async (req, res) => {
   try {
     let zmones = await fs.readFile(ZMONES, {
