@@ -1,15 +1,19 @@
 {
-  "name": "server",
+  "name": "srv",
   "version": "1.0.0",
-  "description": "Pirmas projektas",
+  "description": "Mano projektas",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node ./src/run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "DmitrijKo",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.7.7"
   }
 }

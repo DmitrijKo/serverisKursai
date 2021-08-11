@@ -1,0 +1,12 @@
+<a href="/zmogus">Prideti nauja zmogu</a>
+
+<table>
+    {{#each zmones}}
+    <tr>
+        <td><a href="/zmogus/{{id}}">{{vardas}}</a></td>
+        <td><a href="/zmogus/{{id}}">{{pavarde}}</a></td>
+        <td>{{alga}}</td>
+        <td><a href="/zmogus/{{id}}/delete">X</a></td>
+    </tr>
+    {{/each}}
+</table>
