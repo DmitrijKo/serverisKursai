@@ -1,38 +1,8 @@
 [
   {
-    "id": 2,
-    "vardas": "Anupras2",
-    "pavarde": "Antanaitis",
-    "alga": 1561
-  },
-  {
-    "id": 4,
-    "vardas": "Aleksandras",
-    "pavarde": "Novikovas",
-    "alga": 1000000
-  },
-  {
-    "id": 5,
-    "vardas": "Andrius",
-    "pavarde": "<script>alert('ate')</script>",
-    "alga": 1000
-  },
-  {
-    "id": 7,
-    "vardas": "Laryte",
-    "pavarde": "Moteryte",
-    "alga": 2500
-  },
-  {
-    "vardas": "Andrius",
-    "pavarde": "<script>alert('ate')</script>",
-    "alga": 1000,
-    "id": 8
-  },
-  {
-    "vardas": "Briedis",
-    "pavarde": "Medziotojas",
-    "alga": 121,
-    "id": 9
+    "vardas": "Dmitrij",
+    "pavarde": "Kovalenko",
+    "alga": 16000,
+    "id": 1
   }
 ]
